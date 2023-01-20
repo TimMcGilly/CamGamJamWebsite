@@ -32,3 +32,16 @@ function setupClock(endtime) {
 
   }, 1000);
 }
+
+function toggle(id) {
+  let chev = document.getElementById(id+"_chev");
+  let content = document.getElementById(id + "_content");
+  if (content.style.display === "none") {
+    chev.className = "arr-up"
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+    chev.className = "arr-down"
+
+  }
+}
