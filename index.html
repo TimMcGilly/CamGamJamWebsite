@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar is-hidden-touch">
         <div class="container">
-            <div id="nav" class="columns is-pulled-right is-hidden-mobile my-3 ml-auto mr-6 is-size-5">
+            <div id="nav" class="columns is-pulled-right  my-3 ml-auto mr-6 is-size-5">
                 <div class="column desktop">
                     Home
                 </div>
@@ -30,12 +30,12 @@
         </div>
     </nav>
 
-    <section class="hero is-medium is-info is-bold">
+    <section class="hero is-info is-bold">
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-vcentered">
-                    <div class="column content is-hidden-mobile">
-                        <figure class="">
+                    <div class="column content">
+                        <figure class="is-pulled-right">
                             <img src="JAMMER.jpeg" alt="Logo" width="250px">
                         </figure>
                     </div>
@@ -47,11 +47,53 @@
                             </h1>
                             <h2 class="subtitle">Build a Game in 48 Hours at Uni Of Cam! <br class="mb-2">10th - 12th
                                 February</h2>
-
+                            <button class="button is-light is-large is-primary">Sign Up!</button>
                         </div>
                     </div>
                 </div>
-
+                <div class="columns is-centered ">
+                    <div class="column is-one-third-desktop is-three-quarters-touch">
+                        <div class="columns is-mobile is-horizontal is-centered pb-0 mb-0 ">
+                            <div class="column">
+                                <h1 id="days" class="title is-size-2 is-bold">
+                                    00
+                                </h1>
+                                <p class="subtitle">
+                                    Days
+                                </p>
+                            </div>
+                            <div class="column">
+                                <h1 id="hours" class="title is-size-2 is-bold">
+                                    00
+                                </h1>
+                                <p class="subtitle">
+                                    Hours
+                                </p>
+                            </div>
+                            <div class="column">
+                                <h1 id="mins" class="title is-size-2 is-bold">
+                                    00
+                                </h1>
+                                <p class="subtitle">
+                                    Mins
+                                </p>
+                            </div>
+                            <div class="column">
+                                <h1 id="secs" class="title is-size-2 is-bold">
+                                    00
+                                </h1>
+                                <p class="subtitle">
+                                    Secs
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column is-centered has-text-centered mb-0 mt-0 pt-0">
+                            <p class="subtitle has-text-weight-semibold">
+                                Until Game Jam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -94,6 +136,8 @@
 
         </section>
     </div>
+    <script type="text/javascript" src="lib/main.js"></script>
+
 </body>
 
 </html>
