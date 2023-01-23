@@ -18,6 +18,9 @@
 // Update the sans-serif font family
 //$family-sans-serif: "Helvetica", "Arial", sans-serif;
 
+$hero: #FFB1AA;
+$link: $hero;
+
 // 3. Set the derived variables
 // Use the new pink as the primary color
 //$primary: $pink;
@@ -51,4 +54,15 @@ padding:      .20em;
 
 a {
     color: black;
+    scroll-margin-top: 100px;
 }
+
+[class^=arrbig-]{
+    border:       solid currentColor;
+    border-width: 0 .15em .15em 0;
+    display:      inline-block;
+    padding:      0.50em;
+    }
+    .arrbig-down  {transform:rotate(45deg);margin-bottom: .2em;}
+
+    
