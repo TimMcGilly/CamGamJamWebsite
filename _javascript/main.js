@@ -36,14 +36,19 @@ for (let item of anchorlinks) { // relitere
 });
 
 function setupClock(endtime) {
+  updatetime(endtime);
   const timeinterval = setInterval(() => {
-    const t = getTimeRemaining(endtime);
-    document.getElementById("days").innerText = t.days;
-    document.getElementById("hours").innerText = t.hours;
-    document.getElementById("mins").innerText = t.minutes;
-    document.getElementById("secs").innerText = t.seconds;
+    updatetime(endtime);
 
   }, 1000);
+}
+
+function updatetime(endtime) {
+  const t = getTimeRemaining(endtime);
+  document.getElementById("days").innerText = t.days;
+  document.getElementById("hours").innerText = t.hours;
+  document.getElementById("mins").innerText = t.minutes;
+  document.getElementById("secs").innerText = t.seconds;
 }
 
 function toggle(id) {
