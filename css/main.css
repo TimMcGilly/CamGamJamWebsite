@@ -10311,3 +10311,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   transform: rotate(45deg);
   margin-bottom: 0.2em;
 }
+
+a {
+  color: black;
+}
