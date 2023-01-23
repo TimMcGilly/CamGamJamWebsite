@@ -10281,7 +10281,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
-#content {
+.content-narrow {
   margin-left: 10%;
   margin-right: 10%;
 }
