@@ -10328,3 +10328,7 @@ a {
   transform: rotate(45deg);
   margin-bottom: 0.2em;
 }
+
+li {
+  padding-bottom: 0.5rem;
+}
